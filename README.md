@@ -6,7 +6,6 @@ The gamification of products and services is serious business these days. Learn 
 ## Creating a World
 - Minecraft
   - Set mode to Adventure Mode and cheats to on
-  - 
 - World Painter (http://www.worldpainter.net/)
   - Make sure that cheats are on and the mode is Adventure Mode
 
@@ -24,6 +23,8 @@ The gamification of products and services is serious business these days. Learn 
 
 ## Quests
 - Quest Books
+  - Creating and Giving a book `/give @p written_book 1 0 {    title:"<Book Title>",    author:"Quests",    pages:["[Page 1 text]",        "[Page 2 text]","[Page 3 text]","[Etc.]"]}`
+  - Clearing all books `/clear @a written_book 0 100 {author:Quests}`
 - Background Commands
 
 ## Recommended Tools & Resources
