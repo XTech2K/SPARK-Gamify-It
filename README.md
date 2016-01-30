@@ -20,6 +20,7 @@ The gamification of products and services is serious business these days. Learn 
   - Repeater bottom block `/fill ~ ~1 ~ ~ ~1 ~ air`
   - Test for area `/testfor @a[<x>,<y>,<z>,<radius>]`
   - Say something in chat `/tellraw @a {text:<text>}`
+  - Command blocks do not speak `/gamerule commandBlockOutput false`
 
 ## Quests
 - Quest Books
