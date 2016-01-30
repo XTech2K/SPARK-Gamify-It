@@ -5,11 +5,22 @@ The gamification of products and services is serious business these days. Learn 
 
 ## Creating a World
 - Minecraft
+  - Set mode to Adventure Mode and cheats to on
+  - 
 - World Painter (http://www.worldpainter.net/)
+  - Make sure that cheats are on and the mode is Adventure Mode
 
 ## Populating the World
 - Entities
+  - Use all of your normal Minecraft skills to build a compelling world to explore
 - Command Blocks
+  - Command blocks should be used for all sorts of systems in your game, from quests to dialogue to scene-setting
+  - Keep some sort of text editor open so that you can make commands outside of the limiting Minecraft interface and simply copy them in
+- Important Command Block Commands
+  - Repeater top block `/fill ~ ~-1 ~ ~ ~-1 ~ redstone_block`
+  - Repeater bottom block `/fill ~ ~1 ~ ~ ~1 ~ air`
+  - Test for area `/testfor @a[<x>,<y>,<z>,<radius>]`
+  - Say something in chat `/tellraw @a {text:<text>}`
 
 ## Quests
 - Quest Books
